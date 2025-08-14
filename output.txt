@@ -1,0 +1,41 @@
+==================================================
+[32;1m[EVENT] [0m(mac:8) received segment from (ip:1000) with contents:
+	 testing
+==================================================
+[34;1m[INFO] [0mTotal packets transmitted = 4
+[34;1m[INFO] [0mTotal packet distance     = 4
+[34;1m[INFO] [0mBringing down (mac:4)
+==================================================
+==================================================
+[34;1m[INFO] [0mTotal packets transmitted = 0
+[34;1m[INFO] [0mTotal packet distance     = 0
+[31;1;5m[ERROR] [0mIdeal packets transmitted = 4
+[31;1;5m[ERROR] [0mIdeal packets distance    = 6
+[31;1;5m[ERROR] [0mSome segment(s) not delivered:
+	At (mac:8) with contents:
+		 testing
+
+[34;1m[INFO] [0mBringing down (mac:5)
+==================================================
+[31;1m[WARNING] [0mGraph is disconnected, (ip:8000) is unreachable from (mac:1)
+==================================================
+[34;1m[INFO] [0mTotal packets transmitted = 0
+[34;1m[INFO] [0mTotal packet distance     = 0
+[31;1;5m[ERROR] [0mSome segment(s) not delivered:
+	At (mac:8) with contents:
+		 testing
+
+[34;1m[INFO] [0mBringing up (mac:5)
+==================================================
+[32;1m[EVENT] [0m(mac:8) received segment from (ip:1000) with contents:
+	 testing
+==================================================
+[34;1m[INFO] [0mTotal packets transmitted = 4
+[34;1m[INFO] [0mTotal packet distance     = 6
+[34;1m[INFO] [0mBringing up (mac:4)
+==================================================
+[32;1m[EVENT] [0m(mac:8) received segment from (ip:1000) with contents:
+	 testing
+==================================================
+[34;1m[INFO] [0mTotal packets transmitted = 4
+[34;1m[INFO] [0mTotal packet distance     = 4
